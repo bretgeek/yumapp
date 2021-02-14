@@ -27,14 +27,14 @@ __3.__ Navigate to the build directory - yumapp/build.
 cd yumapp/build
 ```
 
-__4.__  Run _npm install_ to install the dependencies that node needs.
+__4.__  Run _npm install_ to install the dependencies for minification and that node needs.
 
 ```javascript
 npm install 
 ```
 
 
-__5.__ - Run the example app which will launch the boilerplate app in your default browser.
+__5.__  Run the example app which will launch the boilerplate app in your default browser.
 
 ```javascript
 node buildyum --min --web 
