@@ -41,7 +41,12 @@ node buildyum --min --web
 ```
 
 
-__6.__ Edit the example _App_ to create your own. `cd yumapp/src` then edit App.js and the other files (if you mess it up re-clone!)
+__6.__ Edit the example _App_ to create your own... 
+
+```javascript
+cd yumapp/src
+```
+then edit App.js and the other files. If you mess it up re-clone!
 
 
 ### More ways to build
