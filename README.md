@@ -70,7 +70,7 @@ Something like:
 
 ```Javascript
   <script src='https://cdn.jsdelivr.net/gh/bretgeek/yumjs@main/yum.min.js'></script>
-  <script>https://mycoolsite.com/js/chunk.min.js</script>
+  <script src='https://mycoolsite.com/js/chunk.min.js'></script>
 ```
  
 
