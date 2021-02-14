@@ -59,7 +59,7 @@ then edit App.js and the other files. If you mess it up re-clone!
 
 ## The Output file
 
-Running `node buildyum` without the --web give you a notice on the screen as to where to find your output file:
+Running `node buildyum` without the --web option will give you a notice on the screen as to where to find your output file:
 
 Minifed files are in `../out/chunk.min.js` while un-minified is in `../out/chunk.js`
 
