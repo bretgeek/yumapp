@@ -1,0 +1,68 @@
+const Button = (props) => {
+  const html = `<button>Click ${props.name}</button>`;
+  const h = yum(html).first;
+  yum(h).addClass(props.className);
+
+  function fn(e) {
+
+    console.log(`I clicked ${e.target.tagName} ${e.target.data} ${e.target.classList}`);
+    const mom = yum(e.target).parent().first;
+    // OR
+    // yum(e.target.parentNode).find('#info').text('hey')
+    console.log(mom.tagName);
+    let count = Number(`${e.target.data}`);
+    count += 1;
+    e.target.data = count;
+    yum(mom).find('#info').html(`clicked <strong>${e.target.classList}</strong> ${e.target.data} times `);
+      /*
+    // Only when the button is clicked does the ReactTo take affect
+    if(count == 1){
+      const app = yum('.App').first;
+      if(app){
+      yum(h).ReactTo(app, 'AppReactor', runme, 'a');
+      }
+    }
+     */
+  }
+
+  yum(h).css('cursor: pointer;').addClass(props.className).addEvent('click', fn);
+
+
+  const toggleback = function(e) {
+  yum(e).toggle('inline-block')
+  }
+  // testing reactor on App
+   function runme(reactor) {
+    console.log(`Button reacted to ${reactor.name}, do what you want with the data (${reactor.data})`);
+      yum(reactor.subscriber).toggle().delay(1000, toggleback);
+  };
+
+  // A ready function is called automatically when the document is ready.
+  // If you want to reference any other components or elements from within this component you must do it here to ensure they have been loaded.
+  h.ready = function() {
+    //const app = yum('.App').first;
+    //yum(h).ReactTo(app, 'AppReactor', runme, 'a');
+    console.log('ready');
+  };
+    //works but not reliable
+    setTimeout( t => {
+   // const app = yum('.App').first;
+   // yum(h).ReactTo(app, 'AppReactor', runme, 'a');
+   // console.log('reactor on timeout to make sure app is there');
+    },1000);
+
+   // This will not work app won't exist
+   //const app = yum('.App').first;
+   // if(app){
+   //yum(h).ReactTo(app, 'AppReactor', runme, 'a');
+   // }
+
+
+  h.react = function() {
+    console.log(`Button's h.react ran`);
+  };
+
+  return h;
+};
+
+

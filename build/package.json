@@ -1,0 +1,22 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "hello.js",
+  "dependencies": {
+    "http-status-codes": "^1.4.0",
+    "opn": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "me",
+  "license": "ISC"
+}
