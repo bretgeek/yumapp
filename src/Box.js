@@ -9,7 +9,7 @@ const Box = () => {
   yum()._render(Button, h, {addClass: false, props: {className: 'button1', name: 'button1'}, initState: '0'} );
   yum()._render(Button, h, {addClass: false, props: {className: 'button2', name: 'button2'}, initState: '0'} );
   const infobox = yum()._createNode('div');
-  yum(infobox).text('info').attr('id', 'info').css('margin-top: 10px;');
+  yum(infobox).text('Box info').attr('id', 'info').css('margin-top: 10px;');
   yum(infobox).appendTo(h);
   return h;
 };

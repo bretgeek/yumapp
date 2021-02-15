@@ -34,10 +34,10 @@ const Button = (props) => {
   // component you must do it here (or on another user initiated event) to ensure they have been loaded.
   h.ready = function() {
     const app = yum('.App').first;
-      // We know app will exist in this case but safer to check in case of some other element
-      if(app){
-    yum(h).ReactTo(app, 'AppReactor', runme, 'a');
-      }
+    // We know app will exist in this case but safer to check in case of some other element
+    if (app) {
+      yum(h).ReactTo(app, 'AppReactor', runme, 'a');
+    }
     console.log('ready');
   };
 
