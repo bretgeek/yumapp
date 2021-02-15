@@ -1,5 +1,6 @@
 todo.js
 build/node_modules
 src/node_modules
+src/old
 out/chunk.js
 out/chunk.min.js
