@@ -4,7 +4,7 @@
 __YumJS__ is a reactive JavaScript library for building web apps with the **smallest amount of overhead code** all within a familiar syntax.
 
 
-Aside from the JQuery like syntax,  __YumJS__ has tons of cool things like function queues, utilities, observers, and stuff for reactivity. You can read more about __YumJS__ on the **[SITE](https://yumjs.net)**  and in my Introducing __YumJS__ Dev.to article **[HERE](https://dev.to/bretgeek/introducing-yumjs-16bi)** and more **[HERE](https://yumjs.net/blog/build-apps-with-yum-components/).
+Aside from the JQuery like syntax,  __YumJS__ has tons of cool things like function queues, utilities, observers, and stuff for reactivity. You can read more about __YumJS__ on the **[SITE](https://yumjs.net)**  and in my Introducing __YumJS__ Dev.to article **[HERE](https://dev.to/bretgeek/introducing-yumjs-16bi)** and more **[HERE](https://yumjs.net/blog/build-apps-with-yum-components/)**.
 
 
 
