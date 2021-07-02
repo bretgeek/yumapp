@@ -1,4 +1,9 @@
 
+# Depreciated
+see https://github.com/bretgeek/VibeJS
+
+
+
 ### Yum App Builder is a NodeJS based compiler for YumJS component based apps.
 
 __YumJS__ is a reactive JavaScript library for building web apps with the **smallest amount of overhead code** all within a familiar syntax.
