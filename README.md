@@ -1,5 +1,5 @@
 
-# Depreciated
+# Deprecated
 see https://github.com/bretgeek/VibeJS
 
 
